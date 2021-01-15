@@ -67,9 +67,11 @@ packages:
   firebase_auth_oauth_platform_interface:
     dependency: "direct dev"
     description:
-      path: "../firebase_auth_oauth_platform_interface"
-      relative: true
-    source: path
+      path: firebase_auth_oauth_platform_interface
+      ref: HEAD
+      resolved-ref: e3bfb59231cbdc19f0771df468bf1feead3b93d4
+      url: "https://github.com/kostasoft/firebase_auth_oauth"
+    source: git
     version: "0.2.1"
   firebase_auth_platform_interface:
     dependency: transitive
